@@ -1,0 +1,17 @@
+
+
+#login-section {
+    /*Centrar el section*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* Mueve el elemento un -50% de su propio ancho y alto hacia atrás */
+    transform: translate(-50%, -50%);
+
+    /*Tamaño del section*/
+    height: 350px;
+    width: 30%;
+    min-width: 350px;
+    background-color: white;
+}

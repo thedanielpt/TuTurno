@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
+    /*Fuente de las letras*/
     font-family: 'Poppins', sans-serif;
+
+    background-image: url('../../src/assets/imagenes/auth/login.webp');
+
+    /* Evita que la imagen se duplique como un mosaico si es pequeña */
+    background-repeat: no-repeat;
+
+    /* Centra la imagen horizontal y verticalmente */
+    background-position: center center;
+
+    /* Hace que la imagen cubra TODA la pantalla, adaptándose y recortándose si es necesario */
+    background-size: cover;
+
+    /* Modifica el comportamiento al hacer scroll: 
+       'fixed' la deja fija en el fondo; 'scroll' hace que se mueva con el texto */
+    background-attachment: fixed;
 }
