@@ -4,6 +4,9 @@ body {
     /*Fuente de las letras*/
     font-family: 'Poppins', sans-serif;
 
+    margin: 0;
+    padding: 0;
+
     background-image: url('../../src/assets/imagenes/auth/login.webp');
 
     /* Evita que la imagen se duplique como un mosaico si es pequeña */
